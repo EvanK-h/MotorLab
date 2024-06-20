@@ -5,7 +5,6 @@
 
 package com.stuypulse.robot.constants;
 
-import com.stuypulse.stuylib.network.SmartBoolean;
 import com.stuypulse.stuylib.network.SmartNumber;
 
 import edu.wpi.first.math.geometry.Rotation2d;
@@ -50,12 +49,6 @@ public interface Settings {
             double kS = 0.45;
             double kV = 10.00;
             double kA = 0.186;
-        }
-
-        public interface PID {
-            double kP = 0.5;
-            double kI = 0;
-            double kD = 0.1;
         }
     }
 }

@@ -11,9 +11,7 @@ import com.stuypulse.robot.constants.Settings;
 
 import static com.stuypulse.robot.constants.Settings.Romi.Encoder.*;
 
-import com.stuypulse.robot.util.FeedForwardController;
 import com.stuypulse.robot.util.Motor;
-import com.stuypulse.robot.util.PIDController;
 import com.stuypulse.robot.util.RomiMotor;
 
 import edu.wpi.first.math.geometry.Pose2d;
