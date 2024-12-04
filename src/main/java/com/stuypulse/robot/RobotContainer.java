@@ -23,7 +23,7 @@ public class RobotContainer {
     // Gamepads
     public final Gamepad driver = new SimKeyGamepad();
 
-    private Robot robot = RobotBase.isReal() ? new Romi() : new SimRomi();
+    private Robot robot = new Romi();
 
     // Autons
     private static SendableChooser<Command> autonChooser = new SendableChooser<>();
