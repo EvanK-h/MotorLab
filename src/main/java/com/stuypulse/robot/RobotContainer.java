@@ -23,7 +23,7 @@ public class RobotContainer {
     // Gamepads
     public final Gamepad driver = new SimKeyGamepad();
 
-    private Robot robot = new Romi();
+    private Robot robot = new SimRomi();
 
     // Autons
     private static SendableChooser<Command> autonChooser = new SendableChooser<>();
