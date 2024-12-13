@@ -70,7 +70,11 @@ public class DriveFunctions {
         }
     }
 
-    public static void betterControl(Motor left, Motor right) {}
+    public static void betterControl(Motor left, Motor right) {
+        double stopPoint = 60.0;
+        left.set((stopPoint - right.getDistance())/stopPoint);
+        right.set((stopPoint - right.getDistance())/stopPoint);
+    }
 
     public static void bestestControl(Motor left, Motor right) {}
 }
